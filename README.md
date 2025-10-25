@@ -92,7 +92,7 @@ GOOGLE_GEMINI_MODEL=gemini-2.0-flash
 ### 3️⃣ Install dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install streamlit PyPDF2 beautifulsoup4 python-dotenv sentence-transformers faiss-cpu langchain-google-genai
 ```
 
 *(or use the pip install command mentioned above)*
